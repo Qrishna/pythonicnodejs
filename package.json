@@ -1,6 +1,6 @@
 {
   "name": "pythonicnodejs",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A simple nodejs library for those that hate the ugly javascript syntax and love python",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,19 @@
     "nodejssucks",
     "howtomakenodejsnotsucksomuch",
     "pythonicnode",
-    "pythonnode"
+    "pythonic node",
+    "pythonnode",
+    "pythonic nodejs",
+    "nodejs sucks",
+    "pythonic javascript",
+    "pythonicjavascript",
+    "pythonic",
+    "node python",
+    "python node",
+    "nodejs python",
+    "python to nodejs",
+    "nodejs to python",
+    "pythonista"
   ],
   "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu> (https://omega.uta.edu/~kxb3292)",
   "license": "MIT",
