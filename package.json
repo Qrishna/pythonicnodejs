@@ -1,0 +1,30 @@
+{
+  "name": "pythonicnodejs",
+  "version": "3.0.0",
+  "description": "A simple nodejs library for those that hate the ugly javascript syntax and love python",
+  "main": "index.js",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qrishna/pythonicnodejs.git"
+  },
+  "keywords": [
+    "pythonicnodejs",
+    "nodejssucks",
+    "howtomakenodejsnotsucksomuch",
+    "pythonicnode",
+    "pythonnode"
+  ],
+  "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu> (https://omega.uta.edu/~kxb3292)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qrishna/pythonicnodejs/issues"
+  },
+  "homepage": "https://github.com/Qrishna/pythonicnodejs#readme"
+}
