@@ -1,15 +1,15 @@
-# pythonicnodejs
+# pythonicjs
 A simple nodejs library for those that hate the ugly javascript syntax and love python. Javascript sucks and so does nodejs. This is my attempt to make it stop sucking so much.
 
 ### Installation
 ```bash
-npm install -g pythonicnodejs@latest
+npm install -g pythonicjs@latest
 ```
         
 ### Importing this module and using it 
 Note:: This is the only and correct way to run this module. Anything else would be against the spirit of this endeavour  
 ```javascript
-require("pythonicnodejs")()
+require("pythonicjs")()
 ```
 
 ```text
@@ -33,7 +33,7 @@ be available to you and you should be able to use all of its functions as if the
  */
 
 /** This is how you import things like a pro */
-require("./index.js")()
+require("pythonicjs")()
 
 const reality = {
     "javascript": "javascript sucks",

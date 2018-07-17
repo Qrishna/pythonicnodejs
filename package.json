@@ -1,5 +1,5 @@
 {
-  "name": "pythonicnodejs",
+  "name": "pythonicjs",
   "version": "1.0.0",
   "description": "A simple nodejs library for those that hate the ugly javascript syntax and love python",
   "main": "index.js",
@@ -12,10 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Qrishna/pythonicnodejs.git"
+    "url": "git+https://github.com/Qrishna/pythonicjs.git"
   },
   "keywords": [
-    "pythonicnodejs",
+    "pythonicjs",
+    "pythonic js",
     "nodejssucks",
     "howtomakenodejsnotsucksomuch",
     "pythonicnode",
@@ -36,7 +37,7 @@
   "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu> (https://omega.uta.edu/~kxb3292)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Qrishna/pythonicnodejs/issues"
+    "url": "https://github.com/Qrishna/pythonicjs/issues"
   },
-  "homepage": "https://github.com/Qrishna/pythonicnodejs#readme"
+  "homepage": "https://github.com/Qrishna/pythonicjs#readme"
 }
