@@ -1,5 +1,5 @@
 # pythonicjs
-A simple nodejs library for those that hate the ugly javascript syntax and love python. Javascript sucks and so does nodejs. This is my attempt to make it stop sucking so much.
+A nodejs library for those that hate the ugly javascript syntax and love python. Javascript sucks and so does nodejs. This is my attempt to make it stop sucking so much.
 
 ### Installation
 ```bash
