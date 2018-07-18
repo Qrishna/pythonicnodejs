@@ -1,6 +1,7 @@
 # pythonicjs
 A nodejs library for those that hate the ugly javascript syntax and love python. Javascript sucks and so does nodejs. This is my attempt to make it stop sucking so much.
 
+
 ### Installation
 ```bash
 npm install -g pythonicjs@latest

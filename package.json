@@ -1,7 +1,7 @@
 {
   "name": "pythonicjs",
-  "version": "1.0.0",
-  "description": "A simple nodejs library for those that hate the ugly javascript syntax and love python",
+  "version": "2.0.0",
+  "description": "A nodejs library for those that hate the ugly javascript syntax and love python",
   "main": "index.js",
   "dependencies": {
     "underscore": "^1.9.1"
