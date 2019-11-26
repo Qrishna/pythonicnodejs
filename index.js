@@ -1,8 +1,7 @@
 /**
  * Krishna Bhattarai
- * UT Arlington
  * July 2018
- * A helper library to make ugly javascript not suck so much. Use this library and save yourself countless hours
+ * A nodejs library for people that like python
  */
 
 const system = require('child_process').execSync

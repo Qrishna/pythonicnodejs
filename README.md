@@ -1,5 +1,5 @@
 # pythonicjs
-A nodejs library for those that hate the ugly javascript syntax and love python. Javascript sucks and so does nodejs. This is my attempt to make it stop sucking so much.
+A nodejs library for those that like python
 
 
 ### Installation
@@ -7,43 +7,20 @@ A nodejs library for those that hate the ugly javascript syntax and love python.
 npm install -g pythonicjs@latest
 ```
         
-### Importing this module and using it 
-Note:: This is the only and correct way to run this module. Anything else would be against the spirit of this endeavour  
-```javascript
-require("pythonicjs")()
-```
-
-```text
-/**
-Notice how the module is immediately called after requiring? This is because you shouldn't have to say some bullshit like this:
-something     = somebullshitmodule.doSomething()     /** wtf??? **/ 
-somethingelse = somebullshitmodule.doSomethingElse() /** wtf??? **/ 
-That is just horrible!. You should not have to do that. If you have already gone through the effort of 
-importing some module why should you have to say that.doSomeBullShit() ? You shouldn't. It should just immediately
-be available to you and you should be able to use all of its functions as if they were right there on your current module.
-**/
-```
-
-
 ### Usage
 ```javascript
-/**
- * Golden Rules
- * 1. Code needs to be simple, short, clean, and readable and other people need to be able to contribute to it
- * 2. Use the right tool for the right job which means stop trying to use nodejs for everything. It is not a right tool for anything!
- */
 
-/** This is how you import things like a pro */
+/** Require*/
 require("pythonicjs")()
 
-const reality = {
-    "javascript": "javascript sucks",
-    "nodejs": "nodejs sucks even more"
+const someVariable = {
+    "javascript": "javascript is awesome",
+    "nodejs": "nodejs is cool"
 }
 
-/** Here is how you get rid of the console.log() bullshit */
-let suckers = 10000
-print(`You can't do a goddamn thing in nodejs with importing ${suckers} libraries.`, "It is horrible!\n")
+/**  */
+let someConst = 10000
+print(`You can't do anything in nodejs without importing ${someConst} libraries.`, "Its awesome!\n")
 
 /** Here is how you pretty print something */
 pprint(reality)
@@ -61,7 +38,7 @@ print("ascending:", sorteds(strings_array))
 print("descending:", sorteds(strings_array, "desc"), "\n")
 
 /** Logging with a timestamp */
-log("Wow! this is awesome. I can log whatever and whenever I want with a timstamp and no more console.log bullshit or some dumbass logging module")
+log("Wow! this is awesome. I can log whatever and whenever I want with a timstamp and no more console.log or some logging module")
 log("...and I can log some more ")
 log("...and more ... ")
 log("This is how it should work. Learn it kids ")
@@ -118,9 +95,4 @@ print(equals(co, obj))
 
 /** More to follow later */
 
-```
-### Contributing
-```bash
-You are more than welcome to fork this repo, make your changes, and create pull requests. I will attend to them ASAP.
-Any comments, suggestions, contributions etc are much welcomed and appreciated!
 ```
