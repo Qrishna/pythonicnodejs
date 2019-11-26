@@ -39,9 +39,6 @@ print("descending:", sorteds(strings_array, "desc"), "\n")
 
 /** Logging with a timestamp */
 log("Wow! this is awesome. I can log whatever and whenever I want with a timstamp and no more console.log or some logging module")
-log("...and I can log some more ")
-log("...and more ... ")
-log("This is how it should work. Learn it kids ")
 
 /** Statistics */
 let copied_list = copy(pythonic_list)
@@ -56,42 +53,6 @@ log("LEN   =", len(copied_list))
 log("RANGE =", range(copied_list))
 log("MODE  =", mode(copied_list))
 log("***    END OF STATISTICS    ***")
-
-/** Some more examples **/
-let list = [-12, 0, 1, 2, 5, 12, 11, -256, 13, 21, 12, 22, 35, 57, 57,  58, 89]
-
-HEADER("LIST OPERATIONS")
-print("list:              ", list)
-print("reversed:          ", reversed(list))
-print("sorted-ascending:  ", sorted(list))
-print("sorted-descending: ", sorted(list, "desc"))
-FOOTER("LIST OPERATIONS")
-
-HEADER("LOCATION")
-print("mean:                ", avg(list))
-print("q1:                  ", q1(list))
-print("q2|median:           ", q2(list))
-print("q3:                  ", q3(list))
-print("mode:                ", mode(list))
-FOOTER("LOCATION")
-
-HEADER("DISPERSION")
-print("sample standard deviation:         ", sample_standard_deviation(list))
-print("poopulation standard deviation:    ", population_standard_deviation(list))
-
-print("sample variance:              ", sample_variance(list))
-print("interquartile range:          ", interquartile_range(list))
-print("sample range:                 ", range(list))
-print("coefficient of variation :    ", coefficient_of_variation(list))
-FOOTER("DISPERSION")
-
-/** Copy method to copy arrays or objects **/
-let array = [1, 2, 3, 4, 5]
-let obj = {a: 1, b: 22, c: 928}
-ca = copy(array)
-co = copy(obj)
-print(equals(ca, array))
-print(equals(co, obj))
 
 /** More to follow later */
 

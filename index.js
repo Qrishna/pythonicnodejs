@@ -232,41 +232,5 @@ module.exports = function() {
     self.round = function(item){
         return Math.round(item)
     }
-
-    self.percentile = function(data, percentile){
-        return parseFloat(self.os(`python -c "import numpy;  print(numpy.percentile(sorted([${data}]), ${percentile}, interpolation='midpoint'))"`).trim())
-    }
-
-    self.q1 = function(data){
-        return self.percentile(data, 25)
-    }
-
-    self.q2 = function(data){
-        return self.percentile(data, 50)
-    }
-
-    self.q3 = function(data){
-        return self.percentile(data, 75)
-    }
-
-    self.sample_standard_deviation = function(data){
-        return parseFloat(self.os(`python -c "import numpy; print (numpy.std([${data}], dtype=numpy.float64, ddof=1))"`).trim())
-    }
-
-    self.population_standard_deviation = function(data){
-        return parseFloat(self.os(`python -c "import numpy; print (numpy.std([${data}], dtype=numpy.float64))"`).trim())
-    }
-
-    self.sample_variance = function(data){
-        return parseFloat(self.os(`python -c "import numpy; print (numpy.var([${data}], 0))"`).trim())
-    }
-
-    self.interquartile_range = function(data){
-        return parseFloat(self.os(`python -c "import numpy; print (numpy.subtract(*numpy.percentile([${data}], [75, 25])))"`).trim())
-    }
-
-    self.coefficient_of_variation = function(data){
-        return self.avg(data) === 0 ?  null : self.sample_standard_deviation(data) / self.avg(data)
-    }
 }
 
