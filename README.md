@@ -23,7 +23,7 @@ let someConst = 10000
 print(`You can't do anything in nodejs without importing ${someConst} libraries.`, "Its awesome!\n")
 
 /** Here is how you pretty print something */
-pprint(reality)
+pprint(someVariable)
 
 /** Sorting arrays of numbers */
 let pythonic_list = [1,8, -12, 0, 0, 13, -5, 500, -5, 2, 4, 2.5, 10, 0.5, 15,-1.1, 18, -5, 20]
