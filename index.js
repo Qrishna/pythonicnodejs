@@ -14,16 +14,6 @@ module.exports = function() {
     self._ = _
     self.system = system
 
-    self.blank = function(){
-        console.log("\n")
-    }
-    self.HEADER = function(info){
-        console.log(`======== ${info} ========`)
-    }
-    self.FOOTER = function(info){
-        console.log(`======== ${info} ========\n`)
-    }
-
     self.print = function(...message){
         console.log(...message)
     }

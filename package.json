@@ -1,6 +1,6 @@
 {
   "name": "pythonicjs",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A nodejs library for those that like python",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,7 @@
     "pythonicnode",
     "pythonista"
   ],
-  "author": "Krishna Bhattarai <krishnamani.bhattarai@mavs.uta.edu>",
+  "author": "Krishna <qrishna>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Qrishna/pythonicjs/issues"

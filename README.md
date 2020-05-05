@@ -20,7 +20,7 @@ const someVariable = {
 
 /**  */
 let someConst = 10000
-print(`You can't do anything in nodejs without importing ${someConst} libraries.`, "Its awesome!\n")
+print(`You can't do anything with nodejs without importing ${someConst} libraries.`, "Its awesome!\n")
 
 /** Here is how you pretty print something */
 pprint(someVariable)
@@ -54,6 +54,5 @@ log("RANGE =", range(copied_list))
 log("MODE  =", mode(copied_list))
 log("***    END OF STATISTICS    ***")
 
-/** More to follow later */
 
 ```
